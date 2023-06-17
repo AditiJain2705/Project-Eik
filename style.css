@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+.container>nav{
+    height: 10%;
+    width: 100%;
+   
+}
+nav>p{
+    font-size: 1.5vmax;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    padding: 2vmax;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.logo{
+    height: 10%;
+    width: 10%;
+}
+.logo>h1{
+    font-size: 1.5vmax;
+    color: white;
+    padding: 2vmax 2vmax;
+    position: fixed;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} 
+.content{
+    height: 30%;
+    width: 30%;
+    margin-top: 10%;
+    margin-left: 10%;
+    /* background-color: aqua; */
+}
+.container>img{
+    /* height: 100%; */
+    width: 20%;
+    margin-left: 40%;
+   
+    top: 2%;
+    position: absolute;
+}
+.content>p{
+    font-size: 1vmax;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 4px;
+    padding: 2vmax 0;
+   
+}
+
+.content>h1{
+    font-size: 3vmax;
+    color: white;
+  
+}
+.contain2{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.factory{
+    height: 50%;
+    width: 40%;
+    /* left: 60%;
+    top: 40%; */
+    /* background-color: red; */
+    /* position: relative; */
+}
+.contain2>img{
+    height: 10%;
+    width: 30%;
+  
+}
+.factory>p{
+    font-size: 1vmax;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 4px;
+    padding: 2vmax 0;
+}
+.factory>h1{
+    font-size: 3vmax;
+    color: white;
+}
+.contain{
+    height: 100vh;
+    width: 100%;
+   background-color: rgb(226, 226, 253);
+}
+.brand{
+    height: 20%;
+    width: 40%;
+   margin-left: 30%;
+}
+.brand>p{
+    font-size: 1vmax;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 4px;
+    padding: 2vmax 10vmax;
+ 
+}
+.brand>h1{
+    font-size: 3vmax;
+}
+.brand>button{
+    font-size: 1vmax;
+    margin-left: 30%;
+    padding: 0.5vmax 3vmax;
+    margin-top: 5%;
+}
+.footer{
+    height: 80vh;
+    width: 100%;
+}
+.along{
+    height: 20%;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.along>p{
+    font-size: 1vmax;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 4px;
+}
+.along>h1{
+    font-size: 3 vmax;  
+    padding: 1vmax 0;
+}
+.newletter{
+    height: 20%;
+    width: 30%;
+    margin-left: 10%;
+}
+.newletter>p{
+    font-size: 1vmax;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 4px;
+    padding: 4vmax 0;
+}
+.newletter>h1{
+    font-size: 2vmax;  
+}
+.newletter>input{
+    border-color: transparent;
+   margin-top: 10%;
+}
+.home{
+    height: 20%;
+    width: 30%;
+    margin-left: 60%;
+   top: -10%;
+   position: relative;
+}
+.home>h1{
+    font-size: 2vmax;
+    padding: 0.5vmax;
+}
+.image{
+    height: 60%;
+    width:40%;
+    margin-left: 5%;
+    /* top: 20%; */
+    /* position: relative; */
+}
+.image>img{
+    height: 100%;
+    width: 100%;
+}
+.collection{
+    height: 50%;
+    width: 40%;
+    display: flex;
+    top: 20%;
+    left: 30%;
+    position: relative;
+}
+.collection>img{
+    height: 100%;
+    width: 40%;
+}
+.home>h1>span>i{
+    padding: 1vmax;
+}
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      /* background: #fff; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
